@@ -24,17 +24,19 @@ public class UserListActivity extends AppCompatActivity {
 
         lstBook = new ArrayList<>();
         lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
-        lstBook.add(new User("Deepanshu",4,"Mohali",R.drawable.ic_boy));
+        lstBook.add(new User("Gurleen",4,"Mohali",R.drawable.ic_girl));
+        lstBook.add(new User("Pulkit",4,"Mohali",R.drawable.ic_man));
+        lstBook.add(new User("Kartik",4,"Mohali",R.drawable.ic_boy));
+        lstBook.add(new User("Himanshi",4,"Mohali",R.drawable.ic_girl));
+        lstBook.add(new User("Simranjeet",4,"Mohali",R.drawable.ic_man));
+        lstBook.add(new User("Piyush",4,"Mohali",R.drawable.ic_boy));
+        lstBook.add(new User("Pranjal",4,"Mohali",R.drawable.ic_girl));
+        lstBook.add(new User("Jagrit",4,"Mohali",R.drawable.ic_man));
+        lstBook.add(new User("Piyush",4,"Mohali",R.drawable.ic_boy));
+        lstBook.add(new User("Pranjal",4,"Mohali",R.drawable.ic_girl));
+        lstBook.add(new User("Jagrit",4,"Mohali",R.drawable.ic_man));
+
+
 
 
 

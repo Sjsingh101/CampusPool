@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserDetailActivity">
+    tools:context=".UserDetailActivity"
+    android:background="@drawable/grad"
+    android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:clickable="true"
+
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFFFFFFF"
+        android:id="@+id/profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:elevation="5dp"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_boy" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Deepanshu"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="italic|bold"
+        android:fontFamily="monospace"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:saveEnabled="true"
+        android:numStars="5"
+        android:clickable="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:text="@string/para"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:text="Confirm Pooling"/>
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/fab_add"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ripple_oval"
+        android:elevation="8dp"
+        android:src="@drawable/ic_checked" />
+</LinearLayout>
